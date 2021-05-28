@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/transfer",
+      "handler": "Transfer.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

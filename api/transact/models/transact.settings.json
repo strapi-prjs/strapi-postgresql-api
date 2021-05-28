@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transacts",
+  "info": {
+    "name": "transact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender": {
+      "type": "string"
+    },
+    "receiver": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "float"
+    }
+  }
+}
